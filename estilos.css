@@ -39,19 +39,19 @@ html {
 }
 .master > div{
     display: inline-block;
+    margin-bottom: 5mm;
 
 }
 
 #parrafo1 {
     width: 250px;
     background-color: white;
-    margin-left: 3mm;
+    margin-left: 3mm; 
    
 }
 #parrafo2 {
     width: 250px;
     background-color: white;
-    margin-top: 0%; 
     
 }
 #menu {
@@ -60,6 +60,7 @@ html {
     font-size: small;
     height: 15px;
     width: 85%;
+    text-align: right;
 }
 
 
@@ -79,13 +80,13 @@ html {
 
 }
 
-.navbar ul li a{
+.navbar ul li a > div {
     text-decoration: none;
     display: inline-block;
-    color: white;
-    background-color: grey;
     height: 15px;
     width: 85%;
+    background-color: white;
+    text-align: right;
 }
 .pnav {
     background-color: grey;
@@ -93,10 +94,8 @@ html {
     width: 85%;
     display: inline-block;
 }
-#tabla > div {
-    display: inline-block;
 
-}
+
 #final {
     text-align: center;
     background-color: lightskyblue;
